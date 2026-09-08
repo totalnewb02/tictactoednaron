@@ -17,4 +17,6 @@ def winning_condition (player):
     (board [2] == player and board [5] == player and board [8] == player) or
     (board [0] == player and board [5] == player and board [8]== player) or
     (board [2] == player and board [5] == player and board [6] == player))
+    return True
+
     
